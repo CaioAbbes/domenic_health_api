@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module main</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">main</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:d%3A%5Cfiap%5Cano_3%5Cfase_7%5Cglobal_solution_2%5Capi%5Cmain.py">d:\fiap\ano_3\fase_7\global_solution_2\api\main.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="oracledb.html">oracledb</a><br>
+</td><td class="multicolumn"><a href="os.html">os</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-inserir_artigo"><strong>inserir_artigo</strong></a>()</dt><dd><span class="code">Insere&nbsp;um&nbsp;novo&nbsp;artigo&nbsp;no&nbsp;banco&nbsp;de&nbsp;dados.<br>
+&nbsp;<br>
+Parâmetros:<br>
+-&nbsp;nome&nbsp;(str):&nbsp;Nome&nbsp;do&nbsp;artigo.<br>
+-&nbsp;descricao&nbsp;(str):&nbsp;Descrição&nbsp;do&nbsp;artigo.<br>
+-&nbsp;data_publicacao&nbsp;(str):&nbsp;Data&nbsp;de&nbsp;publicação&nbsp;do&nbsp;artigo.<br>
+-&nbsp;autor&nbsp;(str):&nbsp;Autor&nbsp;do&nbsp;artigo.<br>
+-&nbsp;id_orgao_sistema&nbsp;(int):&nbsp;ID&nbsp;do&nbsp;órgão&nbsp;do&nbsp;sistema&nbsp;relacionado&nbsp;ao&nbsp;artigo.<br>
+&nbsp;<br>
+Retorna:<br>
+-&nbsp;JSON:&nbsp;{'status':&nbsp;'Artigo&nbsp;inserido&nbsp;com&nbsp;sucesso!'}&nbsp;se&nbsp;a&nbsp;operação&nbsp;for&nbsp;bem-sucedida,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'error':&nbsp;str}&nbsp;se&nbsp;ocorrer&nbsp;algum&nbsp;erro.</span></dd></dl>
+ <dl><dt><a name="-selecionar_artigo_id"><strong>selecionar_artigo_id</strong></a>()</dt><dd><span class="code">Seleciona&nbsp;um&nbsp;artigo&nbsp;com&nbsp;base&nbsp;no&nbsp;ID&nbsp;fornecido.<br>
+&nbsp;<br>
+Parâmetros:<br>
+-&nbsp;id_artigo&nbsp;(int):&nbsp;ID&nbsp;do&nbsp;artigo&nbsp;a&nbsp;ser&nbsp;recuperado.<br>
+&nbsp;<br>
+Retorna:<br>
+-&nbsp;JSON:&nbsp;Dicionário&nbsp;representando&nbsp;o&nbsp;artigo&nbsp;se&nbsp;a&nbsp;operação&nbsp;for&nbsp;bem-sucedida,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'error':&nbsp;str}&nbsp;se&nbsp;ocorrer&nbsp;algum&nbsp;erro.</span></dd></dl>
+ <dl><dt><a name="-selecionar_artigos"><strong>selecionar_artigos</strong></a>()</dt><dd><span class="code">Seleciona&nbsp;todos&nbsp;os&nbsp;artigos&nbsp;no&nbsp;banco&nbsp;de&nbsp;dados.<br>
+&nbsp;<br>
+Retorna:<br>
+-&nbsp;JSON:&nbsp;Lista&nbsp;de&nbsp;dicionários&nbsp;representando&nbsp;os&nbsp;artigos&nbsp;se&nbsp;a&nbsp;operação&nbsp;for&nbsp;bem-sucedida,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'error':&nbsp;str}&nbsp;se&nbsp;ocorrer&nbsp;algum&nbsp;erro.</span></dd></dl>
+ <dl><dt><a name="-selecionar_orgao_sistema"><strong>selecionar_orgao_sistema</strong></a>()</dt><dd><span class="code">Seleciona&nbsp;todos&nbsp;os&nbsp;órgãos&nbsp;do&nbsp;sistema&nbsp;no&nbsp;banco&nbsp;de&nbsp;dados.<br>
+&nbsp;<br>
+Retorna:<br>
+-&nbsp;JSON:&nbsp;Lista&nbsp;de&nbsp;dicionários&nbsp;representando&nbsp;os&nbsp;órgãos&nbsp;do&nbsp;sistema&nbsp;se&nbsp;a&nbsp;operação&nbsp;for&nbsp;bem-sucedida,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'error':&nbsp;str}&nbsp;se&nbsp;ocorrer&nbsp;algum&nbsp;erro.</span></dd></dl>
+ <dl><dt><a name="-selecionar_orgao_sistema_id"><strong>selecionar_orgao_sistema_id</strong></a>()</dt><dd><span class="code">Seleciona&nbsp;um&nbsp;órgão&nbsp;do&nbsp;sistema&nbsp;com&nbsp;base&nbsp;no&nbsp;ID&nbsp;fornecido.<br>
+&nbsp;<br>
+Parâmetros:<br>
+-&nbsp;id_orgao_sistema&nbsp;(int):&nbsp;ID&nbsp;do&nbsp;órgão&nbsp;do&nbsp;sistema&nbsp;a&nbsp;ser&nbsp;recuperado.<br>
+&nbsp;<br>
+Retorna:<br>
+-&nbsp;JSON:&nbsp;Dicionário&nbsp;representando&nbsp;o&nbsp;órgão&nbsp;do&nbsp;sistema&nbsp;se&nbsp;a&nbsp;operação&nbsp;for&nbsp;bem-sucedida,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'error':&nbsp;str}&nbsp;se&nbsp;ocorrer&nbsp;algum&nbsp;erro.</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>app</strong> = &lt;Flask 'main'&gt;<br>
+<strong>db_host</strong> = 'localhost'<br>
+<strong>db_password</strong> = '123456'<br>
+<strong>db_port</strong> = '1521'<br>
+<strong>db_service</strong> = 'xe'<br>
+<strong>db_user</strong> = 'system'<br>
+<strong>request</strong> = &lt;LocalProxy unbound&gt;</td></tr></table>
+</body></html>
